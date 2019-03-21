@@ -33,7 +33,7 @@ class WebKitApp():
         appwin.set_default_size(750, 550)
         scrollpane = Gtk.ScrolledWindow()
         appwin.add(scrollpane)
-        appframe = WebKit.WebView()
+        appframe = cfg_misc.webkitview(WebKit.WebView(), cfg)
         self.appframe = appframe
         scrollpane.add(appframe)
 

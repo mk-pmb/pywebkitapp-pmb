@@ -1,5 +1,5 @@
 { "name": "pywebkitapp-pmb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple site-specific browser made from Python, GTK and Webkit. App-ify any URL.",
   "keywords": [
     "webapp"

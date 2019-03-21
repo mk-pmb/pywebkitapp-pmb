@@ -28,7 +28,7 @@ Icons:
   * ![☑][ck-hz] Configure options via env vars `wka_…`. all optional.
   * ![⟎][ck-up] Config via CLI args
 * Config options:
-  * ![⟎][ck-up] `useragent`: Custom browser name.
+  * ![☑][ck-hz] `useragent`: Custom browser name.
   * ![☑][ck-hz] `url`: Which website to display.
   * ![⟎][ck-up] `reloadsec`: Reload the page every … seconds.
   * ![☑][ck-hz] `title`: Window title pattern.
