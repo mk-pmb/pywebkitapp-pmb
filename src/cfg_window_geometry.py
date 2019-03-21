@@ -42,6 +42,8 @@ def apply(win, cfg):
 
     def neg_geom_posi(pos, add, size, max):
         pos = geom[pos]
+        if pos is None:
+            return -1
         if pos == '-0':
             pos = max - size
         elif pos < 0:

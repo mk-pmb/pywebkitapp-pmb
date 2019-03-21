@@ -1,15 +1,15 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8, tab-width: 4 -*-
 
-import gi
-# gi.require_version('Gtk', '3.10')
+import gi_helpful
+gi_helpful.needver('Gtk', '3.0', apt_pkg='libgtk-3-0')
 # Gtk 3 docs: https://python-gtk-3-tutorial.readthedocs.io/en/latest/
-# gi.require_version('WebKit', '2.4')
+gi_helpful.needver('WebKit', '3.0', apt_pkg='libwebkitgtk-3.0-0')
 
 from gi.repository import Gtk, WebKit
 
-import os
 import sys
+import os
 
 import cfg_core
 import cfg_misc

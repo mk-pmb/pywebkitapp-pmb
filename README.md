@@ -60,6 +60,15 @@ Icons:
 <!--#toc stop="scan" -->
 
 
+Dependencies
+------------
+
+```bash
+sudo apt-get --no-install-recommends install \
+  python3 python3-gi libgtk-3-0 libwebkitgtk-3.0-0
+```
+
+
 
 Known issues
 ------------
