@@ -1,0 +1,28 @@
+{ "name": "pywebkitapp-pmb",
+  "version": "0.0.1",
+  "description": "Simple site-specific browser made from Python, GTK and Webkit. App-ify any URL.",
+  "keywords": [
+    "webapp"
+  ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/pywebkitapp-pmb/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/pywebkitapp-pmb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/pywebkitapp-pmb/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "bin": "bin/pywebkitapp-pmb",
+
+  "dependencies": {},
+  "devDependencies": {},
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
