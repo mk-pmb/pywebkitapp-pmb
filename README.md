@@ -60,6 +60,15 @@ Icons:
 <!--#toc stop="scan" -->
 
 
+Installation
+------------
+
+1. Clone this repo.
+1. Install deps as described in the next section.
+1. (Optional) Symlink `bin/pywebkitapp-pmb` into `/usr/bin`.
+
+
+
 Dependencies
 ------------
 
